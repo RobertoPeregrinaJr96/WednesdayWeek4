@@ -15,17 +15,17 @@ class Calculator {
 		this.total /= num
 		return this.total
 	}
-	multiple(num) {
+	multiply(num) {
 		this.total *= num
 		return this.total
 	}
 }
-let calculator = new Calculator()
-console.log(calculator.add(50))
-console.log(calculator.subtract(35))
-console.log(calculator.multiple(10))
-console.log(calculator.divide(5))
-console.log(calculator.total)
+let calculator = new Calculator();
+console.log(calculator.add(50));      // => 50
+console.log(calculator.subtract(35)); // => 15
+console.log(calculator.multiply(10)); // => 150
+console.log(calculator.divide(5));    // => 30
+console.log(calculator.total)         // => 30
 
 /*****************************************************************************/
 /***************** DO NOT MODIFY ANYTHING UNDER THIS LINE ********************/
