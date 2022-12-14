@@ -10,7 +10,7 @@ describe("Dog", function () {
   describe("static makeJet()", () => {
     it("should return an object with a name property and speak and changeName functions", function () {
       const dog1 = Dog.makeJet();
-  
+
       assert.deepEqual(dog1.name, "Jet");
       expect(dog1.speak).to.be.a("function");
       expect(dog1.changeName).to.be.a("function");
